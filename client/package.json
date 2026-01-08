@@ -18,7 +18,7 @@
     "react-slick": "^0.30.2",
     "react-stars": "^2.2.5",
     "react-toastify": "^10.0.5",
-    "tailwindcss-typography-style": "^0.8.2"
+    "tailwindcss-style-animate": "^1.1.6"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
