@@ -1,0 +1,24 @@
+import Carousel from "../components/Carousel";
+import GenInfo, { Brands } from "../components/GenInfo";
+import ShopBy from "../components/ShopBy";
+
+const Home = () => {
+  return (
+    <div className="max-w-screen-xl xs:w-[95vw] xs:max-w-[95vw] md:w-full mx-auto ">
+      <Carousel />
+      <GenInfo />
+      <Brands heading="Top Brands" />
+      <div className="md:w-full md:max-w-full xs:mx-2  sm:mx-auto ">
+        <div className="prose prose-2xl">
+          <ShopBy title="Best Sellers" filter="bestSellers" />
+          <Brands heading="Best Sellers" />
+        </div>
+        <div className="prose prose-2xl">
+          <ShopBy title="Top Rated" filter="topRated" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
