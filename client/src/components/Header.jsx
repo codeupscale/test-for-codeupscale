@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import Search from './Search';
 import { useWishList } from '../context/WishListContext';
 import { useCart } from '../context/CartContext';
-import About from './About';
+
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
