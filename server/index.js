@@ -30,6 +30,7 @@ const startServer = async () => {
     app.listen(PORT, () => {
       console.log(`App is listening on port ${PORT}`);
     });
+    app.use("/api", router)
   } catch (error) {
     console.error(`Error starting server: ${error.message}`);
     process.exit(1);
