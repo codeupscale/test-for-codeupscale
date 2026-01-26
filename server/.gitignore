@@ -1,4 +1,4 @@
-# Logs
+# Log files
 logs
 *.log
 npm-debug.log*
@@ -7,14 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node modules and build directories
 node_modules
 dist
 dist-ssr
+
+# Environment and local configuration files
 *.local
 .env
 
-
-# Editor directories and files
+# Editor and OS-specific files
 .vscode/*
 !.vscode/extensions.json
 .idea
